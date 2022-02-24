@@ -28,7 +28,7 @@ namespace Sinle_Responsibility_Principle
         {
             if(userName != null && password != null)
             {
-                // SAVE CHANGES IN DP
+                // SAVE CHANGES IN DB
                 notification.SendNotification_Registration();
             }
         }
