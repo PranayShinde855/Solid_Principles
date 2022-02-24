@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Open_Close_Principle
 {
+    // Open-Close Principle : A class should be open to Extendion but close for modificaion.
     interface IShapes
     {
         string Shape();
